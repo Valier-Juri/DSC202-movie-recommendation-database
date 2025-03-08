@@ -53,13 +53,18 @@ This is the group final project for DSC250.This project focuses on building robu
 ## Useful Resources
 
 -([Requirement of this project](https://canvas.ucsd.edu/courses/62236/discussion_topics/891178))
+
 -([Presentation of this project&Rubric](https://canvas.ucsd.edu/courses/62236/discussion_topics/898687))
-- Report:
+
+- **Report:**
 - Consider the report as a written elaboration of your presentation
 - We will not prescribe a specific format for a graduate class, but it should have sections that roughly corresponds to your presentation.
 - It is a technical report, written much like a scientific/technical paper. Describe your methodology, results, and limitations. Use code for illustration but do not cut and paste all your code.
 - There should be a Conclusion Section that indicates the lessons learned, limitations and potential extensions of the project.
 
+- **Other reference:**
+- https://raveenak96.github.io/movies/
+- https://github.com/chandan-u/graph-based-recommendation-system/tree/master
 
 
 
