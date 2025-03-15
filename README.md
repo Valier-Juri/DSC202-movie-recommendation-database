@@ -1,7 +1,7 @@
-# DSC250-movie-recommendation-database
+# DSC202-movie-recommendation-database
 
 ## Overview
-This is the group final project for DSC250.This project focuses on building robust databases—both relational (SQL) and graph-based (Neo4j)—for a movie recommendation system using the IMDb and Stanford MovieLens datasets. The emphasis is on database design, integration, and complex query formulation rather than algorithmic development in Python.
+This is the group final project for DSC202.This project focuses on building robust databases—both relational (SQL) and graph-based (Neo4j)—for a movie recommendation system using the IMDb and Stanford MovieLens datasets. The emphasis is on database design, integration, and complex query formulation rather than algorithmic development in Python.
 
 ## Datasets
 
