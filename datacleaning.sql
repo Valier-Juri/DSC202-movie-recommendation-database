@@ -1,5 +1,5 @@
 -- ==============================================
--- 1️⃣ TABLE CREATION: Core Data Tables
+-- TABLE CREATION: Core Data Tables
 -- ==============================================
 
 CREATE TABLE movies (
@@ -58,7 +58,7 @@ CREATE TABLE imdb (
 );
 
 -- ==============================================
--- 2️⃣ TABLE CREATION: Additional Metadata Tables
+-- TABLE CREATION: Additional Metadata Tables
 -- ==============================================
 
 CREATE TABLE title_crew (
@@ -77,7 +77,7 @@ CREATE TABLE name_basics (
 );
 
 -- ==============================================
--- 3️⃣ CREATING A TABLE FOR MOVIE DIRECTORS
+-- CREATING A TABLE FOR MOVIE DIRECTORS
 -- ==============================================
 
 DELETE FROM title_crew WHERE tconst = 'tconst'; -- Ensuring no placeholder values
@@ -93,7 +93,7 @@ WHERE tc.directors IS NOT NULL
 GROUP BY tc.tconst;
 
 -- ==============================================
--- 4️⃣ INDEX CREATION FOR PERFORMANCE OPTIMIZATION
+-- INDEX CREATION FOR PERFORMANCE OPTIMIZATION
 -- ==============================================
 
 CREATE INDEX idx_ratings_movieId ON ratings(movieId);
@@ -108,7 +108,7 @@ CREATE INDEX idx_imdb_numVotes ON imdb(numVotes);
 CREATE INDEX idx_movie_directors_tconst ON movie_directors(tconst);
 
 -- ==============================================
--- 5️⃣ FILTERING TOP MOVIES BASED ON USER RATINGS
+-- FILTERING TOP MOVIES BASED ON USER RATINGS
 -- ==============================================
 
 WITH TopMovies AS (
