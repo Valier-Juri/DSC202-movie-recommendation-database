@@ -47,6 +47,8 @@ Ensure you have downloaded the following datasets:
 ## Database Design
 
 ### SQL (Relational Database)
+- **Column Names**
+userId, imdb_id, title, genres, releaseYear, averageRating, rating, timestamp, tag, relevance, director_names
 
 ### Neo4j (Graph Database)
 
@@ -71,7 +73,7 @@ Ensure you have downloaded the following datasets:
 
 ## References
 
-chandan-u. 2016. “GitHub - Chandan-u/Graph-Based-Recommendation-System: Building a Recommendation System Using Graph Search Methodologies. We Will Be Comparing These Different Approaches and Closely Observe the Limitations of Each.” GitHub. 2016. https://github.com/chandan-u/graph-based-recommendation-system/tree/master.
+- chandan-u. 2016. “GitHub - Chandan-u/Graph-Based-Recommendation-System: Building a Recommendation System Using Graph Search Methodologies. We Will Be Comparing These Different Approaches and Closely Observe the Limitations of Each.” GitHub. 2016. https://github.com/chandan-u/graph-based-recommendation-system/tree/master.
 
 - GroupLens. 2019. “MovieLens 25M Dataset.” GroupLens. December 10, 2019. https://grouplens.org/datasets/movielens/25m/.
 
