@@ -68,7 +68,7 @@ userId, imdb_id, title, genres, releaseYear, averageRating, rating, timestamp, t
 - Extracting and normalizing textual features from IMDb descriptions and user-generated tags from MovieLens.
 - Identifying and mapping relevant keywords to improve recommendation relevance and accuracy.
 
-## Complex Queries & Analytical Operations
+## Report
 
 
 ## References
