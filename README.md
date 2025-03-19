@@ -1,5 +1,8 @@
 # DSC202-movie-recommendation-database
 
+## Group Member
+Caroline Zhang, Sijin Lyu, Tristan Cooper
+
 ## Overview
 This is the group final project for DSC202.This project focuses on building robust databases—both relational (SQL) and graph-based (Neo4j)—for a movie recommendation system using the IMDb and Stanford MovieLens datasets. The emphasis is on database design, integration, and complex query formulation rather than algorithmic development in Python.
 
